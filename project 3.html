@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <style>
+        div {
+            text-align: center;
+            background-color: black;
+        }
+
+        li {
+            list-style: none;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+            font-size: 25px;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 5px;
+            margin: 10px;
+            color: white;
+            font-size: 20px;
+        }
+
+        a:hover {
+            background-color: white;
+            color: black;
+            font-size: 25px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: orange;
+            width: 100%;
+            height: 100%;
+        }
+
+        #heading {
+            background-color: pink;
+            font-style: italic;
+        }
+
+        h2 {
+            text-align: center;
+            background-color: purple;
+            padding: 15px;
+            font-size: 45px;
+            color: white;
+            font-family: 'Mooli', sans-serif;
+        }
+
+        #home {
+            font-size: 40px;
+            color: black;
+            background-color: purple;
+        }
+
+        img {
+            width: 98%;
+            height: 100%;
+            margin: 10px;
+        }
+
+        #lan {
+            background-color: black;
+            color: white;
+            padding: 15px;
+            margin: 5px;
+            font-family: 'Mooli', sans-serif;
+            width: 96%;
+            font-size: 28px;
+        }
+
+        #s {
+            font-style: italic;
+            font-size: 30px;
+            color: orange;
+        }
+
+        #q {
+            font-style: italic;
+            color: greenyellow;
+            font-size: 28px;
+        }
+
+        #html {
+            margin: 0px 5px;
+            width: 180px;
+        }
+
+        h3 {
+            margin: 0px 50px;
+            font-size: 30px;
+        }
+
+        #htm {
+            margin: 10px 50px;
+        }
+
+        #css {
+            margin: 0px 30px;
+            width: 120px;
+        }
+
+        #cs {
+            margin: 10px 50px;
+        }
+
+        #js {
+            margin: 0px 15px;
+            width: 180px;
+        }
+
+        #j {
+            margin: 10px 50px;
+        }
+
+        #rec {
+            margin: 0px 30px;
+            width: 150px;
+        }
+
+        #re {
+            margin: 10px 50px;
+        }
+        #gallery{
+            font-size: 20px;
+            background-color: red;
+            
+        }
+        #g{
+            font-style: italic;
+            color: black;
+            font-size: 30px;
+        }
+        #al{
+            font-style: italic;
+            color: greenyellow;
+            font-size: 30px;
+        }
+        #gall{
+            background-color: white;
+        }
+        #pic1{
+            width: 23%;
+            height: 240px;
+            margin: 1px;
+        }
+        #pic2{
+            width: 23%;
+            height: 240px;
+            margin: 1px;
+        }
+        #pic3{
+            width: 23%;
+            height: 240px;
+            margin: 1px;
+        }
+        #pic4{
+            width: 23%;
+            height: 240px;
+            margin: 1px;
+        }
+        #pic5{
+            width: 23%;
+            height: 240px;
+            margin: 1px;
+        }
+        #pic6{
+            width: 23%;
+            height: 240px;
+            margin: 1px;
+        }
+        #pic7{
+            width: 23%;
+            height: 240px;
+            margin: 1px;
+        }
+        #pic8{
+            width: 23%;
+            height: 240px;
+            margin: 1px;
+        }
+        #about{
+            background-color: rgb(216, 89, 4);
+        }
+        h4{
+            margin:  0px 20px;
+            font-size: 20px;
+            font-family: 'Mooli', sans-serif;
+            color: rgb(130, 60, 235);
+        }
+        #who{
+            font-family: 'Mooli', sans-serif;
+            margin:  0px 20px; 
+            color: rgb(231, 96, 118);
+        }
+        #my{
+            text-align: center;
+            font-size: 25px;
+            font-family: 'Mooli', sans-serif;
+        }
+        table{
+            width: 90%;
+            height: 500px;
+            margin: 0px 50px;
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+        }
+        td,th{
+            width: 20px;
+            border: 1px solid black;
+            text-align: center;
+            border-collapse: collapse;
+            font-family: 'Mooli', sans-serif;
+            font-size: 15px;
+            /* background-color: antiquewhite; */
+        }
+        #col{
+            background-color: aliceblue;
+        }
+        #foot{
+            padding: 10px;
+            background-color: rgb(27, 104, 142);
+            color: white;
+        }
+        #shopping{
+            background-color: white;
+            color: black;
+        }
+        #fruit{
+            color: black;
+            list-style-type:decimal;
+            font-size: 26px;
+            padding: 1px;
+            margin: 1px;
+        }
+        #fru{
+            color: black;
+            list-style: circle;
+            padding: 1px;
+            font-size: 16px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <li>Navbar</li>
+        <a href="id=len">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Gallery</a>
+        <a href="#">About Us</a>
+        <a href="#">Time Table</a>
+    </div>
+    <h1>Welcome to <span id="heading">HTML sample website</span></h1>
+    <h2>H<span id="home">ome page</span></h2>
+    <img src="./img/page.jpg" alt=""><br>
+    <h1 id="lan">Programming Language <span id="s">S</span><span id="q">ervice</span></h1>
+
+    <img id="html" src="./img/html.png" alt=""><br><br>
+    <h3>HTML</h3><br>
+    <p id="htm">The HyperText Markup Language or HTML is the standard markup language for documents designed to be
+        displayed in a web browser.It defines the meaning and structure of web content. </p>
+    <hr>
+    <img id="css" src="./img/css.png" alt=""><br><br>
+    <h3>CSS</h3><br>
+    <p id="cs">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document
+        written in a markup language such as HTML or XML.</p>
+    <hr>
+    <img id="js" src="./img/js.png" alt=""><br><br>
+    <h3>JavaScript</h3><br>
+    <p id="j">
+        JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World
+        Wide Web, alongside HTML and CSS. As of 2023, 98.7% of websites use JavaScript on the client side for webpage
+        behavior, often incorporating third-party libraries.
+    </p>
+
+    <hr>
+    <img id="rec" src="./img/react.png" alt=""><br><br>
+    <h3>React</h3><br>
+    <p id="re">React is a free and open-source front-end JavaScript library for building user interfaces based on
+        components. It is maintained by Meta and a community of individual developers and companies.
+    </p>
+    <h2 id="gallery">Our <span id="g">G</span><span id="al">allery</span></h2>
+    <div id="gall">
+        <img id="pic1"  src="./img/g1.jpg" alt="">
+        <img id="pic2" src="./img/g2.jpg" alt="">
+        <img id="pic3" src="./img/g3.jpg" alt="">
+        <img id="pic4" src="./img/g4.jpg" alt="">
+        <img id="pic5"  src="./img/g5.jpg" alt="">
+        <img id="pic6" src="./img/g6.jpg" alt="">
+        <img id="pic7" src="./img/g7.jpg" alt="">
+        <img id="pic8" src="./img/g8.jpg" alt="">
+    </div>
+    <h2 id="about">About Us</h2>
+    <h4>Who We Are</h4><br><br>
+    <p id="who">
+        Defining yourself is a difficult process, whether you are writing a journal entry, answering an interview question, or trying to be happier and more fulfilled in your life.
+        However, you must define who you are for yourself first before you can do it for another person.
+    </p><br>
+    <h4>Our Mission</h4><br><br>
+    <p id="who">
+        A mission statement is a short statement of why an organization exists, what its overall goal is, the goal of its operations: what kind of product or service it provides, its primary customers or market, and its geographical region of operation.
+    </p><br>
+    <h4>Why Choose Us</h4><br><br>
+    <p id="who">
+        When hiring managers ask, “Why choose us?” theyre not trying to trick or challenge you. With this common interview question, theyre attempting to assess if youd be a good fit for the team and the company, and if what youre looking for in a job is a match for what their job offers.
+    </p>
+    <h2>Time Table For Study</h2>
+    <p id="my">My Weekly Schedule</p>
+    <table>
+        <tr>
+            <th id="col">Days</th>
+            <th id="col">Location</th>
+            <th id="col" colspan="2">Holy Days</th>
+            <th id="col" colspan="2">Eating Time</th>
+            <th id="col" colspan="2">Practice Time</th>
+            <td></td>
+        </tr>
+        <tr>
+            <td id="col"></td>
+            <td id="col"></td> 
+            <th id="col">Morning</th>
+            <th id="col">Evening</th>
+            <th id="col">Breakfast</th>
+            <th id="col">Lunch</th>
+            <th id="col">Morning</th>
+            <th id="col">Evening</th>
+            <td></td>
+            
+        </tr>
+        <tr>
+            <td id="col" rowspan="2">Monday</td>
+            <td id="col" rowspan="2">Home</td>
+            <td id="col" rowspan="2">Prayer</td>
+            <td id="col"></td>
+            <td id="col">8:00 AM</td>
+            <td id="col">1:00 PM</td>
+            <td id="col" rowspan="2">Studying</td>
+            <td id="col" rowspan="2">Islamic Book</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td id="col"></td>
+            <td id="col"></td>
+            <td id="col">8:00 PM</td>
+            <td id="col">1:30 PM</td>
+        </tr>
+        <tr>
+            <td id="col" rowspan="2">Tuesday</td>
+            <td id="col" rowspan="2">Library</td>
+            <td id="col"  rowspan="2">Medation</td>
+            <td id="col"></td>
+            <td id="col">7:00 AM</td>
+            <td id="col">12:00 PM</td>
+            <td id="col" rowspan="2">Reading</td>
+            <td id="col" rowspan="2">Islamic Book</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td id="col"></td>
+            <td id="col"></td>
+            <td id="col">8:00 PM</td>
+            <td id="col">1:00 PM</td>
+        </tr>
+        <tr>
+            <td id="col" rowspan="2">Wednesday</td>
+            <td id="col" rowspan="2">Park</td>
+            <td id="col" rowspan="2">YOGA</td>
+            <td id="col"></td>
+            <td id="col">7:00 AM</td>
+            <td id="col">12:00 PM</td>
+            <td id="col" rowspan="2">Writting</td>
+            <td  id="col" rowspan="2">Islamic Book</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td  id="col"></td>
+            <td id="col"></td>
+            <td id="col">7:30 PM</td>
+            <td id="col">12:30 PM</td>
+        </tr>
+        <tr>
+            <td id="col" rowspan="2">Thursday</td>
+            <td id="col" rowspan="2">GYM</td>
+            <td id="col" rowspan="2">Prayer</td>
+            <td id="col"></td>
+            <td id="col">8:00 AM</td>
+            <td id="col">1:00 PM</td>
+            <td id="col" rowspan="2">Exerecise</td>
+            <td id="col" rowspan="2">Drums</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td id="col"></td>
+            <td id="col"></td>
+            <td id="col">8:30 PM</td>
+            <td id="col">1:30 PM</td>
+        </tr>
+        <tr>
+            <td id="col" rowspan="2">Friday</td>
+            <td id="col" rowspan="2">Home</td>
+            <td id="col" rowspan="2">Prayer</td>
+            <td id="col"></td>
+            <td id="col">7:00 AM</td>
+            <td id="col">12:00 PM</td>
+            <td id="col" rowspan="2">Coding</td>
+            <td id="col" rowspan="2">HTML</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td id="col"></td>
+            <td id="col"></td>
+            <td id="col">7:00 PM</td>
+            <td id="col">12:30 PM</td>
+        </tr>
+        <tr>
+            <td id="col" rowspan="2">Saturday</td>
+            <td id="col" rowspan="2">Beach</td>
+            <td id="col" rowspan="2">Medation</td>
+            <td id="col"></td>
+            <td id="col">8:00 AM</td>
+            <td id="col">1:00 PM</td>
+            <td id="col" rowspan="2">Coding</td>
+            <td id="col" rowspan="2">JS</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td id="col"></td>
+            <td id="col"></td>
+            <td id="col">8:30 PM</td>
+            <td id="col">1:00 PM</td>
+        </tr>
+        <tr>
+            <td id="col" rowspan="2">Sundayy</td>
+            <td id="col" rowspan="2">Church</td>
+            <td id="col" rowspan="2">Prayer</td>
+            <td id="col"></td>
+            <td id="col">9:00 AM</td>
+            <td id="col">2:00 PM</td>
+            <td id="col" rowspan="2">Rest</td>
+            <td id="col" rowspan="2">Rest</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td id="col"></td>
+            <td id="col"></td>
+            <td id="col">9:30 PM</td>
+            <td id="col">2:00 PM</td>
+        </tr>
+        <tr>
+            <td id="foot" colspan="9"> Note: This schedule is subject to change. Adjustment by made based on circumstances</td>
+        </tr>
+    </table>
+    <h2 id="shopping">My Shopping list</h2>
+    <ol>
+        <li id="fruit"><b>Fruit</b></li>
+        <ul>
+            <li id="fru">Apple</li>
+            <li id="fru">Banana</li>
+            <li id="fru">Peach</li>
+            <li id="fru">Mango</li>
+        </ul>
+        <li id="fruit"><b>Vegetable</b></li>
+        <ul>
+            <li id="fru">Potato</li>
+            <li id="fru">Tomato</li>
+            <li id="fru">Chili</li>
+            <li id="fru">Garlic</li>
+        </ul>
+        <li id="fruit"><b>Dairy Product</b></li>
+        <ul>
+            <li id="fru">Milk</li>
+            <li id="fru">Chesse</li>
+            <li id="fru">Yogurt</li>
+        </ul>
+
+    </ol>
+
+</body>
+
+</html>
